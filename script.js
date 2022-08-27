@@ -85,7 +85,7 @@ for (let i of produtos.data) {
     container.appendChild(ano);
 
     let preco = document.createElement("h6");
-    preco.innerText = "$" + i.preco;
+    preco.innerText = "R$" + i.preco;
     container.appendChild(preco);
 
     card.appendChild(container);
