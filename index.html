@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ATV CARLOS</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header>
+    </div>
+    <div class="inner">
+      <div class="logo">
+        <div>
+          <img src="albedo-removebg-preview.png">
+        </div>
+      </div>
+      <nav>
+        <li><span>Albedo Store</span></li>
+      </nav>
+    </div>
+  </header>
+  <div class=" procura">
+    <div id="search-container">
+      <input type="search" id="search-input" placeholder="Nome do veiculo..." />
+      <button id="search">Procurar</button>
+    </div>
+    <div id="buttons">
+      <button class="button-value" onclick="filterProduct('Todos')">Todos</button>
+      <button class="button-value" onclick="filterProduct('Muscle')">
+        Muscle
+      </button>
+      <button class="button-value" onclick="filterProduct('Super')">
+        Super
+      </button>
+      <button class="button-value" onclick="filterProduct('Caminhonete')">
+        Caminhonete
+      </button>
+      <button class="button-value" onclick="filterProduct('Popular')">
+        Popular
+      </button>
+    </div>
+    <div id="products"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
